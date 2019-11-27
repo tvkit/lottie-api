@@ -9,12 +9,10 @@ function Image(element) {
 	}
 
 	function _buildPropertyMap() {
-		return [
-		]
+		return []
 	}
 	
-	var methods = {
-	}
+	var methods = {}
 
 	return Object.assign({}, LayerBase(state), methods);
 }
